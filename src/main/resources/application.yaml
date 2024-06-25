@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /starter
+spring:
+  application:
+    name: starter-spring-boot
+  datasource:
+    url: jdbc:mysql://localhost:3306/start-spring
+    username: root
+    password: 210993
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
